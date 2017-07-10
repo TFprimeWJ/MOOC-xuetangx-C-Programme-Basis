@@ -1,4 +1,5 @@
-```java  
+```java
+
 /*1st Class Constructor*/
 
 class Clock
@@ -17,4 +18,5 @@ int main()
   Clock c(0,0,0);
   return 0;
 }
+
 ```
