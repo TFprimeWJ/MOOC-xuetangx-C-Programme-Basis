@@ -1,0 +1,18 @@
+/*1st Class Constructor*/
+
+class Clock
+{
+  public:
+  Clock(int h, int m, int s);
+  
+  private:
+  int hour, minute, second;
+}
+
+Clock::Clock(int h, int m, int s): hour(h),minute(m),second(s) {}
+
+int main()
+{
+  Clock c(0,0,0);
+  return 0;
+}
